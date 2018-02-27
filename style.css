@@ -1,6 +1,6 @@
 #page {
 	margin: 36px auto;
-	width: 960px;
+	width: 90%; /* previously set at a fixed 960px */
 }
 
 .blog-image-header {
@@ -8,8 +8,11 @@
 	background-position: center;
 	background-repeat: no-repeat;
 
-	height: 100px;
-	width: 100%;
+	/*height: 100px;*/
+	/*width: 100%;*/
+
+	/* 48 / 900 = 0.0533333333 */
+	padding: 5.33333333%; /* padding was previously 48px on the left side */ 
 }
 
 .blog-image-border {
@@ -18,14 +21,18 @@
 	top: 20px;
 }
 
+/*   FORMULA: target (pixel width) / context = result   */ 
+/* .blog(900) / context(960) = 0.9375 */
+/* move the decimal place over two places, to make 93.75% */
+
 .blog {
 	margin: 0 auto 53px;
-	width: 900px;
+	width: 93.75%; /* previously 900px */
 }
 
 .blog .main-content {
 	float: left;
-	width: 566px;
+	width: 62.8888889%; /* 566 / 900 = .628888889 */
 }
 
 .blog-post-image {
@@ -38,5 +45,5 @@
 
 .blog .side-content {
 	float: right;
-	width: 331px;
+	width: 36.7777778%; /* 331 / 900 = .367777778 */
 }
