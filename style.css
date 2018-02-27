@@ -37,9 +37,16 @@
 	width: 62.8888889%; /* 566 / 900 = .628888889 */
 }
 
+.figure {
+	float: left;
+	margin-bottom: 0.5em;
+	margin-left: 2.12014134%;  /* 12px / 566px */ 
+}
+
+/* UPDATE: 474 px wide article. Wait NVM, not using this number, sticking with 566px */
 .article {
 	/* Target: 24px padding on total width of main-content */
-	padding: 4.2402826855124%; /* 24px / 566px */
+	padding: 4.2402826865124%; /* 24px / 566px */
 }
 
 .blog-post-image img {
