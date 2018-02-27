@@ -35,15 +35,23 @@
 	width: 62.8888889%; /* 566 / 900 = .628888889 */
 }
 
-.blog-post-image {
-	background-image: url("./img/pexels-photo-866023-resized.jpg");
+.blog-post-image img {
+	/*background-image: url("./img/pexels-photo-866023-resized.jpg");*/
 	background-position: center;
 	background-repeat: no-repeat;
 
+	display: block;
 	height: 35.375em;
 }
 
 .blog .side-content {
 	float: right;
 	width: 36.7777778%; /* 331 / 900 = .367777778 */
+}
+
+
+.recent-entries {
+
+
+	width: 231px;
 }
