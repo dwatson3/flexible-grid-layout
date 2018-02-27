@@ -38,7 +38,7 @@
 }
 
 .figure {
-	float: left;
+	/*float: left;*/
 	margin-bottom: 0.5em;
 	margin-left: 2.12014134%;  /* 12px / 566px */ 
 }
